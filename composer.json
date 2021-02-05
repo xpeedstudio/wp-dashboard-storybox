@@ -1,0 +1,27 @@
+{
+    "name": "xpeedstudio/wp-dashboard-storybox-library",
+    "description": "Rating asking library for WordPress admin",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Xpeedstudio",
+            "email": "info@xpeedstudio.com"
+        },
+        {
+            "name": "Emran",
+            "email": "hello@emran.io"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/wp-dashboard-storybox-library.php"
+        ]
+    },
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "emranio/wp-notice-adapter": "^1.0"
+    },
+    "prefer-stable": true
+}
